@@ -100,6 +100,9 @@ class Home extends Component {
         </ul>
 
         <button onClick={this.newCounter}>New counter</button>
+        <a href="https://github.com/login/oauth/authorize?client_id=690baf8f3ec899363b4f" target="_blank">
+          Sign in with GitHub
+        </a>
       </>
     );
   }
